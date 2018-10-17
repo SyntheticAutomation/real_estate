@@ -49,7 +49,7 @@ class House
     sorted_categories = organized_rooms.sort_by do |x|
       x.count
     end
-    [sorted_categories.to_h]
+    sorted_categories.to_h
   end
 
 end
